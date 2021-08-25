@@ -1,0 +1,40 @@
+
+/*0.- IMPORTACIONES */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+
+/* REGLA GENERAL */
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px
+}
+/* 1.- ETIQUETAS */
+/* body = Selector */
+body {
+  /* PROPIEDAD               VALOR */
+  background-color: rgb(240, 240, 240);
+  color: rgb(54, 54, 54);
+}
+
+a {
+  text-decoration: none;
+  /* inherit hereda color del padre */
+  color: rgb(10, 128, 10);
+  font-weight: bold;
+}
+
+/* 2.- IDs */
+
+#titulo1 {
+  color: red;
+  /* 1rem = 16px */
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* 3.- CLASES */
+
+.list {
+  color: #dad2d2;
+}
+
+/* 4.- MEDIA QUERIES */

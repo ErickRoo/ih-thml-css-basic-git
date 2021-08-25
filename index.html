@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<!-- Para trabajar con HTML5 -->
+<html lang="en">
+<head>
+  <!-- establece el tipo de caracteres / conjunto de caracteres -->
+  <meta charset="UTF-8">
+  <!-- para que se vea bien (forzadamente) en internet explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Para adaptar el contenido a dispositivos -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- referenciar a archivo CSS -->
+  <link rel="stylesheet" href="./index.css">
+  <title>Day 3</title>
+</head>
+<body>
+  <!-- div es una etiqueta general -->
+  <div>
+    <!-- etiqueta para establecer barras de navegacion -->
+    <nav>
+      <!-- a se refiere a los hipervinculos -->
+      <!-- target manda a abrir el vinculo a otra pestaña -->
+      <a href="https://ironhack.com" target="_blank">
+        Ir a Ironhack
+      </a>
+      <!-- a se refiere a los hipervinculos -->
+      <!-- target manda a abrir el vinculo a otra pestaña -->
+      <a href="https://google.com" target="_blank">
+        Ir a Google
+      </a>
+    </nav>
+    <section id="main">
+      <!-- section establece un area de la pagina  -->
+      <h1 id="titulo1">Titulo 1</h1>
+      <h2 id="titulo2">Titulo 1</h2>
+      <h3>Titulo 3</h3>
+      <h4>Titulo 4</h4>
+      <p>
+        Hola Soy un Parrafo.
+      </p>
+      <!-- figure para establecer que voy a utilizar una imagen (envoltura) -->
+      <figure>
+        <!-- img para generar una imagen -->
+        <!-- 2 formas de generar una ruta -->
+
+        <!-- RUTA ABSOLUTA -->
+        <img src="https://www.buykorea.or.kr/images/namo/2021/04/13/20210413094245303.jpg" alt="">
+
+        <!-- RUTA RELATIVA -->
+        <img src="./img/unnamed.jpg" alt="">
+
+      </figure>
+
+      <!-- ol establece una lista ordenada -->
+      <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ol>
+
+      <!-- ul establece lista no ordenada -->
+      <!-- class para estilizar en CSS -->
+      <ul>
+        <li id="list-1" class="list">1</li>
+        <li id="list-2" class="list">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+      </ul>
+
+      <table>
+         <!-- TRs son las filas -->
+        <tr>
+          <!-- ENCABEZADOS -->
+          <th>Nombre</th>
+          <th>Bootcamp</th>
+          <th>Ciudad</th>
+        </tr>
+        <tr>
+          <td>Jose Perez</td>
+          <td>Fullstack</td>
+          <td>Madrid</td>
+        </tr>
+        <tr>
+          <td>Jose Perez</td>
+          <td>Fullstack</td>
+          <td>Madrid</td>
+        </tr>
+      </table>
+
+      <h1>Llena el formulario</h1>
+
+      <form action="">
+        <label for="name">
+          Escribe tu nombre
+        </label>
+        <input type="text" name="name">
+        <hr>
+
+        <label for="email">
+          Escribe tu email
+        </label>
+        <input type="email" name="email">
+        <hr>
+
+        <label for="calendar">
+          Escribe tu email
+        </label>
+        <input type="date" name="calendar">
+        <hr>
+
+        <select name="options" id="">
+          <option>Opcion 1</option>
+          <option>Opcion 2</option>
+        </select>
+        <hr>
+
+        <label for="mascota">
+          Activa la casilla si tienes mascota
+        </label>                
+        <input type="checkbox" name="pet"/>
+      
+        <hr />
+
+        <button type="submit">
+          Enviar
+        </button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
